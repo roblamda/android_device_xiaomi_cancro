@@ -12,9 +12,7 @@ DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 # Audio
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/audio/diracmobile.config:system/vendor/etc/diracmobile.config \
-    $(DEVICE_PATH)/audio/diracmobile_4.config:system/vendor/etc/diracmobile_4.config \
     $(DEVICE_PATH)/audio/mixer_paths.xml:system/vendor/etc/mixer_paths.xml \
-    $(DEVICE_PATH)/audio/mixer_paths_4.xml:system/vendor/etc/mixer_paths_4.xml \
     $(DEVICE_PATH)/audio/acdb/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     $(DEVICE_PATH)/audio/acdb/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     $(DEVICE_PATH)/audio/acdb/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -22,7 +20,6 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/audio/acdb/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     $(DEVICE_PATH)/audio/acdb/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     $(DEVICE_PATH)/audio/acdb/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    $(DEVICE_PATH)/audio/acdb/MTP/MTP_Speaker_cal_4.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal_4.acdb
 
 # Device check
 PRODUCT_COPY_FILES += \
