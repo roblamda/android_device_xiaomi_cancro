@@ -21,10 +21,6 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/audio/acdb/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     $(DEVICE_PATH)/audio/acdb/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
 
-# Device check
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/releasetools/device_check.sh:install/bin/device_check.sh
-
 # FM Radio
 PRODUCT_PACKAGES += \
     FMRadio \
