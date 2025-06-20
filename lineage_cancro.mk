@@ -26,7 +26,7 @@ PRODUCT_NAME := lineage_cancro
 PRODUCT_DEVICE := cancro
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := MI Cancro
+PRODUCT_MODEL := Mi4
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

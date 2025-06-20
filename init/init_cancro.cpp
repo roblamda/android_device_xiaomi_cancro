@@ -132,20 +132,20 @@ void vendor_load_properties()
 
     switch (raw_id) {
         case 1978:
-            property_override_triple("ro.product.model", "ro.product.system.model", "ro.vendor.product.model", "MI 3W");
+            property_override_triple("ro.product.model", "ro.product.system.model", "ro.vendor.product.model", "Mi3 W");
             property_override("ro.nfc.port", "I2C");
             break;
         case 1974:
-            property_override_triple("ro.product.model", "ro.product.system.model", "ro.vendor.product.model", "MI 4");
+            property_override_triple("ro.product.model", "ro.product.system.model", "ro.vendor.product.model", "Mi4");
             break;
         case 1972:
-            property_override_triple("ro.product.model", "ro.product.system.model", "ro.vendor.product.model", "MI 4LTE");
+            property_override_triple("ro.product.model", "ro.product.system.model", "ro.vendor.product.model", "Mi4 LTE");
             property_override("ro.telephony.default_network", "8");
             property_override("telephony.lteOnGSMDevice", "1");
             break;
         default:
             // Other unsupported variants
-            property_override_triple("ro.product.model", "ro.product.system.model", "ro.vendor.product.model", "Unsupported MI Cancro");
+            property_override_triple("ro.product.model", "ro.product.system.model", "ro.vendor.product.model", "Unsupported Mi4");
             break;
     }
 
